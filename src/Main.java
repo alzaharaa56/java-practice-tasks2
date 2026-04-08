@@ -8,14 +8,20 @@ public class Main {
         //  System.out.println("the number of digits is even" + "  "+ program.countEvens(exampleArray));
 
 
-        Task2 exercises = new Task2();
+     //   Task2 exercises = new Task2();
 
-        int[] myNumbers = {1, 2, 13, 2, 1, 13};
-        int result = exercises.sum13(myNumbers);
+      //  int[] myNumbers = {1, 2, 13, 2, 1, 13};
+       // int result = exercises.sum13(myNumbers);
 
-        System.out.println("Input [1, 2, 13, 2, 1, 13]");
-        System.out.println("Expected Sum: 4");
-        System.out.println("Result: " + result);
+       // System.out.println("Input [1, 2, 13, 2, 1, 13]");
+      //  System.out.println("Expected Sum: 4");
+       // System.out.println("Result: " + result);
+
+        Task3 exercises = new Task3();
+        int[] luckyArr = {0, 2, 4};
+        int[] unluckyArr = {1, 2, 3};
+        System.out.println("Input [0, 2, 4]: " +exercises.lucky13(luckyArr));
+        System.out.println("Input [1, 2, 3]: " + exercises.lucky13(unluckyArr));
 
 
     }
