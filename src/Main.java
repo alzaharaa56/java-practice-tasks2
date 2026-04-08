@@ -92,12 +92,24 @@ public class Main {
 
 
 
-        Task12 exercises= new Task12();
-        int[] array12 = {1, 2, 3, 2, 5, 2};
-        int[] result12 = exercises.notAlone(array12);
+        //Task12 exercises= new Task12();
+        //int[] array12 = {1, 2, 3, 2, 5, 2};
+        //int[] result12 = exercises.notAlone(array12);
+       // System.out.print("Output: [");
+       // for (int i = 0; i < result12.length; i++) {
+       // System.out.print(result12[i] + (i < result12.length - 1 ? ", " : ""));
+       // }
+        //System.out.println("]");
+
+        Task13 exercises= new Task13();
+        int[] array13 = {1, 0, 0, 1};
+        int[] result13 = exercises.zeroFront(array13);
         System.out.print("Output: [");
-        for (int i = 0; i < result12.length; i++) {
-        System.out.print(result12[i] + (i < result12.length - 1 ? ", " : ""));
+        for (int i = 0; i < result13.length; i++) {
+        System.out.print(result13[i]);
+         if (i < result13.length - 1) {
+         System.out.print(", ");
+}
         }
         System.out.println("]");
 
