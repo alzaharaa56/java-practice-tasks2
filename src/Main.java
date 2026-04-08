@@ -17,11 +17,23 @@ public class Main {
       //  System.out.println("Expected Sum: 4");
        // System.out.println("Result: " + result);
 
-        Task3 exercises = new Task3();
-        int[] luckyArr = {0, 2, 4};
-        int[] unluckyArr = {1, 2, 3};
-        System.out.println("Input [0, 2, 4]: " +exercises.lucky13(luckyArr));
-        System.out.println("Input [1, 2, 3]: " + exercises.lucky13(unluckyArr));
+      //  Task3 exercises = new Task3();
+        //int[] luckyArr = {0, 2, 4};
+        //int[] unluckyArr = {1, 2, 3};
+       // System.out.println("Input [0, 2, 4]: " +exercises.lucky13(luckyArr));
+       // System.out.println("Input [1, 2, 3]: " + exercises.lucky13(unluckyArr));
+
+
+        Task4 exercises = new Task4();
+         int n = 4;
+         int[] result = exercises.fizzArray(n);
+
+      System.out.print("Result for n=4:");
+      for (int i = 0; i < result.length; i++) {
+    System.out.print(result[i] + (i < result.length - 1 ? ", " : ""));
+}
+
+
 
 
     }
