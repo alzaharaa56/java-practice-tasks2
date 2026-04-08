@@ -101,15 +101,26 @@ public class Main {
        // }
         //System.out.println("]");
 
-        Task13 exercises= new Task13();
-        int[] array13 = {1, 0, 0, 1};
-        int[] result13 = exercises.zeroFront(array13);
+      //  Task13 exercises= new Task13();
+       // int[] array13 = {1, 0, 0, 1};
+       // int[] result13 = exercises.zeroFront(array13);
+       // System.out.print("Output: [");
+       // for (int i = 0; i < result13.length; i++) {
+       // System.out.print(result13[i]);
+        // if (i < result13.length - 1) {
+        // System.out.print(", ");
+//}
+     //   }
+       // System.out.println("]");
+        Task14 exercises= new Task14();
+        int[] array14 = {1, 10, 10, 2};
+        int[] result14 = exercises.withoutTen(array14);
         System.out.print("Output: [");
-        for (int i = 0; i < result13.length; i++) {
-        System.out.print(result13[i]);
-         if (i < result13.length - 1) {
-         System.out.print(", ");
-}
+        for (int i = 0; i < result14.length; i++) {
+      System.out.print(result14[i]);
+       if (i < result14.length - 1) {
+      System.out.print(", ");
+  }
         }
         System.out.println("]");
 
