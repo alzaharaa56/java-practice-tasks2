@@ -33,14 +33,27 @@ public class Main {
     //System.out.print(result[i] + (i < result.length - 1 ? ", " : ""));
 
 
-       Task5 exercises= new Task5();
-        int[] a = {1, 2, 3};
-        int[] b = {2, 3, 4};
-        int[] c = {1, 2, 4};
+     //  Task5 exercises= new Task5();
+        //int[] a = {1, 2, 3};
+        //int[] b = {2, 3, 4};
+       // int[] c = {1, 2, 4};
 
-        System.out.println("Case [1, 2, 3]: " + exercises.no14(a));
-        System.out.println("Case [2, 3, 4]: " + exercises.no14(b));
-        System.out.println("Case [1, 2, 4]: " + exercises.no14(c));
+       // System.out.println("Case [1, 2, 3]: " + exercises.no14(a));
+        //System.out.println("Case [2, 3, 4]: " + exercises.no14(b));
+       // System.out.println("Case [1, 2, 4]: " + exercises.no14(c));
+
+        Task6 exercises =new Task6();
+        int[] a = {1, 2, 3};
+        int[] b = {2, 3, 10};
+        System.out.println("Arrays: [1, 2, 3] & [2, 3, 10]");
+        System.out.println("Result: " + exercises.matchUp(a, b));
+
+
+
+
+
+
+
 }
 
 
