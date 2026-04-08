@@ -124,17 +124,11 @@ public class Main {
  // }
        // }
       //  System.out.println("]");
+
+
         Task15 exercises= new Task15();
-        int[] array15 = {3, 3, 2};
-        int[] result15 = exercises.evenOdd(array15);
-        System.out.print("Output: [");
-        for (int i = 0; i < result15.length; i++) {
-         System.out.print(result15[i]);
-        if (i < result15.length - 1) {
-      System.out.print(", ");
-             }
-        }
-        System.out.println("]");
+        int[] arraySum = {2, 3, 2, 2, 2, 4, 2};
+        System.out.println("Case [2, 3, 2, 2, 2, 4, 2]: " + exercises.sum28(arraySum));
 
 
 

@@ -1,21 +1,19 @@
 public class Task15 {
-    public int[] evenOdd(int[] nums) {
-int[] result = new int[nums.length];
-int left = 0;
-int right = nums.length - 1;
+    public boolean sum28(int[] nums) {
+        int sum = 0;
 
-for (int i = 0; i < nums.length; i++) {
+        for (int i = 0; i < nums.length; i++) {
 
-if (nums[i] % 2 == 0) {
-result[left] = nums[i];
-left++;
-}
+            if (nums[i] == 2) {
+                sum = sum + 2;
+            }
+        }
 
-else {
-result[right] = nums[i];
-right--;
-}
-}
-return result;
+
+        if (sum == 8) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }
