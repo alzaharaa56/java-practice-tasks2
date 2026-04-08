@@ -63,13 +63,20 @@ public class Main {
         //  System.out.println("Result: " + exercises.sameEnds(array8, n));
 
 
-        //Task9 exercises= new Task9();
-        // int[] array9 = {2, 10, 3, 4, 20, 5};
-        // int[] result9 = exercises.tenRun(array9);
-        // System.out.print("Output: [");
-        // for (int i = 0; i < result9.length; i++) {
-        // System.out.print(result9[i] + (i < result9.length - 1 ? " " : ""));
-        // }
+        Task9 exercises= new Task9();
+        int[] arrayShift = {6, 2, 5, 3};
+        int[] resultShift = exercises.shiftLeft(arrayShift);
+
+
+        System.out.print("Output: [");
+
+        for (int i = 0; i < resultShift.length; i++) {
+        System.out.print(resultShift[i]);
+        if (i < resultShift.length - 1) {
+        System.out.print(", ");
+}
+        }
+        System.out.println("]");
 
 
         // Task10 exercises= new Task10();
@@ -126,9 +133,9 @@ public class Main {
       //  System.out.println("]");
 
 
-        Task15 exercises= new Task15();
-        int[] arraySum = {2, 3, 2, 2, 2, 4, 2};
-        System.out.println("Case [2, 3, 2, 2, 2, 4, 2]: " + exercises.sum28(arraySum));
+       // Task15 exercises= new Task15();
+       // int[] arraySum = {2, 3, 2, 2, 2, 4, 2};
+       // System.out.println("Case [2, 3, 2, 2, 2, 4, 2]: " + exercises.sum28(arraySum));
 
 
 

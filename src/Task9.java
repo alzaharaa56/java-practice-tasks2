@@ -1,19 +1,25 @@
 public class Task9 {
-    public int[] tenRun(int[] nums) {
-boolean hasTen = false;
-int currentTen = 0;
+    public int[] shiftLeft(int[] nums) {
 
-for (int i = 0; i < nums.length; i++) {
-
-if (nums[i] % 10 == 0) {
-hasTen = true;
-currentTen = nums[i];
+if (nums.length <= 1) {
+return nums;
 }
 
-else if (hasTen) {
-nums[i] = currentTen;
+
+
+int first = nums[0];
+
+
+
+for (int i = 0; i < nums.length - 1; i++) {
+nums[i] = nums[i + 1];
 }
-}
+
+
+
+nums[nums.length - 1] = first;
+
+
 
 return nums;
     }
