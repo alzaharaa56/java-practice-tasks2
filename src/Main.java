@@ -63,14 +63,24 @@ public class Main {
       //  System.out.println("Result: " + exercises.sameEnds(array8, n));
 
 
-       Task9 exercises= new Task9();
-        int[] array9 = {2, 10, 3, 4, 20, 5};
-        int[] result9 = exercises.tenRun(array9);
-        System.out.print("Output: [");
-        for (int i = 0; i < result9.length; i++) {
-       System.out.print(result9[i] + (i < result9.length - 1 ? " " : ""));
-        }
+       //Task9 exercises= new Task9();
+       // int[] array9 = {2, 10, 3, 4, 20, 5};
+       // int[] result9 = exercises.tenRun(array9);
+       // System.out.print("Output: [");
+       // for (int i = 0; i < result9.length; i++) {
+      // System.out.print(result9[i] + (i < result9.length - 1 ? " " : ""));
+       // }
 
+
+        Task10 exercises= new Task10();
+        int[] array10 = {1, 2, 4, 1};
+        int[] result10 = exercises.pre4(array10);
+
+
+        System.out.print("Output: [");
+        for (int i = 0; i < result10.length; i++) {
+      System.out.print(result10[i] + (i < result10.length - 1 ? ", " : "" ));
+        }
 
 
 
