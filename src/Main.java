@@ -55,12 +55,22 @@ public class Main {
        // System.out.println("Case [2, 1, 3, 5]: " + exercises.modThree(caseA));
        // System.out.println("Case [2, 4, 1, 2]: " + exercises.modThree(caseB));
 
-        Task8 exercises = new Task8();
+       // Task8 exercises = new Task8();
 
-        int[] array8 = {5, 9, 45, 99, 18, 5, 6};
-        int n = 2;
-        System.out.println("Array: [5, 6, 45, 99, 13, 5, 6], n=2");
-        System.out.println("Result: " + exercises.sameEnds(array8, n));
+       // int[] array8 = {5, 9, 45, 99, 18, 5, 6};
+        //int n = 2;
+       // System.out.println("Array: [5, 6, 45, 99, 13, 5, 6], n=2");
+      //  System.out.println("Result: " + exercises.sameEnds(array8, n));
+
+
+       Task9 exercises= new Task9();
+        int[] array9 = {2, 10, 3, 4, 20, 5};
+        int[] result9 = exercises.tenRun(array9);
+        System.out.print("Output: [");
+        for (int i = 0; i < result9.length; i++) {
+       System.out.print(result9[i] + (i < result9.length - 1 ? " " : ""));
+        }
+
 
 
 
