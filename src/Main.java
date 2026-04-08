@@ -42,11 +42,18 @@ public class Main {
         //System.out.println("Case [2, 3, 4]: " + exercises.no14(b));
        // System.out.println("Case [1, 2, 4]: " + exercises.no14(c));
 
-        Task6 exercises =new Task6();
-        int[] a = {1, 2, 3};
-        int[] b = {2, 3, 10};
-        System.out.println("Arrays: [1, 2, 3] & [2, 3, 10]");
-        System.out.println("Result: " + exercises.matchUp(a, b));
+        //Task6 exercises =new Task6();
+       // int[] a = {1, 2, 3};
+       // int[] b = {2, 3, 10};
+      //  System.out.println("Arrays: [1, 2, 3] & [2, 3, 10]");
+      //  System.out.println("Result: " + exercises.matchUp(a, b));
+
+
+        Task7 exercises= new Task7();
+        int[] caseA = {2, 1, 3, 5};
+        int[] caseB = {2, 4, 1, 2};
+        System.out.println("Case [2, 1, 3, 5]: " + exercises.modThree(caseA));
+        System.out.println("Case [2, 4, 1, 2]: " + exercises.modThree(caseB));
 
 
 
