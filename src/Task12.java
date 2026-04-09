@@ -1,16 +1,24 @@
 public class Task12 {
 
-    public int[] notAlone(int[] nums) {
-for (int i = 1; i < nums.length - 1; i++) {
-if (nums[i] != nums[i - 1] && nums[i] != nums[i + 1]) {
+    public static String[] fizzBuzz(int start, int end) {
 
-if (nums[i - 1] > nums[i + 1]) {
-nums[i] = nums[i - 1];
-} else {
-nums[i] = nums[i + 1];
-}
-}
-}
-return nums;
+        int size = end - start;
+        String[] result = new String[size];
+
+        for (int i = 0; i < size; i++) {
+            int currentNumber = start + i;
+
+
+            if (currentNumber % 15 == 0) {
+                result[i] = "FizzBuzz";
+            } else if (currentNumber % 3 == 0) {
+                result[i] = "Fizz";
+            } else if (currentNumber % 5 == 0) {
+                result[i] = "Buzz";
+            } else {
+                result[i] = String.valueOf(currentNumber);
+            }
+        }
+        return result;
     }
 }

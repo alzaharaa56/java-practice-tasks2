@@ -63,20 +63,20 @@ public class Main {
         //  System.out.println("Result: " + exercises.sameEnds(array8, n));
 
 
-        Task9 exercises= new Task9();
-        int[] arrayShift = {6, 2, 5, 3};
-        int[] resultShift = exercises.shiftLeft(arrayShift);
+        //Task9 exercises= new Task9();
+       // int[] arrayShift = {6, 2, 5, 3};
+       // int[] resultShift = exercises.shiftLeft(arrayShift);
 
 
-        System.out.print("Output: [");
+       // System.out.print("Output: [");
 
-        for (int i = 0; i < resultShift.length; i++) {
-        System.out.print(resultShift[i]);
-        if (i < resultShift.length - 1) {
-        System.out.print(", ");
-}
-        }
-        System.out.println("]");
+        //for (int i = 0; i < resultShift.length; i++) {
+       // System.out.print(resultShift[i]);
+       // if (i < resultShift.length - 1) {
+       // System.out.print(", ");
+//}
+      //  }
+       // System.out.println("]");
 
 
         // Task10 exercises= new Task10();
@@ -99,14 +99,20 @@ public class Main {
 
 
 
-        //Task12 exercises= new Task12();
-        //int[] array12 = {1, 2, 3, 2, 5, 2};
-        //int[] result12 = exercises.notAlone(array12);
-       // System.out.print("Output: [");
-       // for (int i = 0; i < result12.length; i++) {
-       // System.out.print(result12[i] + (i < result12.length - 1 ? ", " : ""));
-       // }
-        //System.out.println("]");
+        int start = 1;
+int end = 16;
+
+
+
+String[] result = Task12.fizzBuzz(start, end);
+
+
+
+System.out.println("output" + start + " to" + (end - 1) + ":");
+for (String s : result) {
+System.out.print(s + " ");
+}
+
 
       //  Task13 exercises= new Task13();
        // int[] array13 = {1, 0, 0, 1};
@@ -145,6 +151,7 @@ public class Main {
 
 
 
+
         public static int countEvens ( int[] nums){
             int count = 0;
             for (int i = 0; i < nums.length; i++) {
@@ -158,7 +165,3 @@ public class Main {
 
         }
     }
-
-
-
-
