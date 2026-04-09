@@ -111,25 +111,25 @@ public class Main {
 //}
 
 
-        int[] numbers = {10, 3, 5, 6};
+       // int[] numbers = {10, 3, 5, 6};
 
-        int result = Task13.bigDiff(numbers);
+      //  int result = Task13.bigDiff(numbers);
 
-        System.out.println("Output for Task 13: " + result);
+       // System.out.println("Output for Task 13: " + result);
 
 
      //   }
        // System.out.println("]");
 
-      //  Task14 exercises= new Task14();
-        //int[] array14 = {1, 10, 10, 2};
-       // int[] result14 = exercises.withoutTen(array14);
-       // System.out.print("Output: [");
-       // for (int i = 0; i < result14.length; i++) {
-      //System.out.print(result14[i]);
-       //if (i < result14.length - 1) {
-      //System.out.print(", ");
- // }
+        int[] test1 = {1, 2, 2};
+int[] test2 = {1, 2, 2, 6, 99, 99, 7};
+
+int[] test3 = {1, 1, 6, 7, 2};
+
+System.out.println("Result 1: " + Task14.sum67(test1));
+System.out.println("Result 2: " + Task14.sum67(test2));
+System.out.println("Result 3: " + Task14.sum67(test3));
+    }
        // }
       //  System.out.println("]");
 
@@ -142,7 +142,8 @@ public class Main {
 
 
 
-        }
+
+
 
 
 
