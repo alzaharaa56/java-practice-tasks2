@@ -64,19 +64,19 @@ public class Main {
 
 
         //Task9 exercises= new Task9();
-       // int[] arrayShift = {6, 2, 5, 3};
-       // int[] resultShift = exercises.shiftLeft(arrayShift);
+        // int[] arrayShift = {6, 2, 5, 3};
+        // int[] resultShift = exercises.shiftLeft(arrayShift);
 
 
-       // System.out.print("Output: [");
+        // System.out.print("Output: [");
 
         //for (int i = 0; i < resultShift.length; i++) {
-       // System.out.print(resultShift[i]);
-       // if (i < resultShift.length - 1) {
-       // System.out.print(", ");
+        // System.out.print(resultShift[i]);
+        // if (i < resultShift.length - 1) {
+        // System.out.print(", ");
 //}
-      //  }
-       // System.out.println("]");
+        //  }
+        // System.out.println("]");
 
 
         // Task10 exercises= new Task10();
@@ -98,31 +98,26 @@ public class Main {
         // System.out.println("]");
 
 
-
-        int start = 1;
-int end = 16;
-
+        // int start = 1;
+//int end = 16;
 
 
-String[] result = Task12.fizzBuzz(start, end);
+//String[] result = Task12.fizzBuzz(start, end);
 
 
-
-System.out.println("output" + start + " to" + (end - 1) + ":");
-for (String s : result) {
-System.out.print(s + " ");
-}
-
-
-      //  Task13 exercises= new Task13();
-       // int[] array13 = {1, 0, 0, 1};
-       // int[] result13 = exercises.zeroFront(array13);
-       // System.out.print("Output: [");
-       // for (int i = 0; i < result13.length; i++) {
-       // System.out.print(result13[i]);
-        // if (i < result13.length - 1) {
-        // System.out.print(", ");
+//System.out.println("output" + start + " to" + (end - 1) + ":");
+//for (String s : result) {
+//System.out.print(s + " ");
 //}
+
+
+        int[] numbers = {10, 3, 5, 6};
+
+        int result = Task13.bigDiff(numbers);
+
+        System.out.println("Output for Task 13: " + result);
+
+
      //   }
        // System.out.println("]");
 
